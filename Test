@@ -1,0 +1,7 @@
+# How much bitcoin can I buy?
+How_much_i_have = 1000
+Price_bitcoin = 21000
+def How_much_can_i_buy(How_much_i_have, Price_bitcoin):
+    How_much_can_i_buy = f"{How_much_i_have} / {Price_bitcoin}"
+    return How_much_can_i_buy
+    print("I can buy" + How_much_can_i_buy)
